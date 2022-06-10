@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Movies</title>
     <link rel="stylesheet" href="movieRatings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>My Movies</h1>
@@ -19,18 +24,16 @@
             <input type="number" id="rating" min="0" max="10">
         </label>
 
-        <button type="submit" class="button">Submit</button>
+        <button type="submit" id ="submit-button"class="button">Submit</button>
     </form>
 
-    <table>
+    <br><br>
+
+    <table class="table">
         <thead id="table-head">
             <tr>
                 <th scope="col">Title</th>
-            </tr>
-            <tr>
                 <th scope="col">Rating</th>
-            </tr>
-            <tr>
                 <th scope="col">Delete</th>
             </tr>
         </thead>

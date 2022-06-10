@@ -1,0 +1,54 @@
+body {
+    background-color: #562C2C;
+    text-align: center;
+    color: #F5DFBB;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form{
+    display: inline-block;
+}
+
+/* bruh how tf do i fix the table?*/
+.table{
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+    background-color: #F2542D;
+    color: #F5DFBB;
+}
+
+.table th, .table td {
+    padding: 12px, 15px;
+}
+
+.table tbody tr{
+    border-bottom: thin solid #ddd;
+}
+
+/* button styling - found on dev.to*/
+.button{
+    color: #F5DFBB;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+}
+
+#submit-button{
+    background-color: #127475;
+    color: #F5DFBB;
+}
+
+#delete-button{
+    background-color: #0E9594;
+    color: #F5DFBB;
+}

@@ -39,7 +39,7 @@ toHTML = (inputs) => {
             <td>${inputs.$title}</td>
             <td>${inputs.$rating}</td>
             <td>
-                <button class="button" data-delete-id=${inputs.deleting}> Delete </button>
+                <button class="button" id="delete-button" data-delete-id=${inputs.deleting}> Delete </button>
             </td>
         </tr>
     `;
