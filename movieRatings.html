@@ -9,30 +9,29 @@
 </head>
 <body>
     <h1>My Movies</h1>
-    <form>
-        <label for="title"> 
-            Movie Title    
+
+    <form id="new-entry">
+        <label for="title"> Movie Title    
             <input type="text" id="title" minlength="2" required>
         </label>
 
-        <label for="rating"> 
-            Rating    
+        <label for="rating"> Rating    
             <input type="number" id="rating" min="0" max="10">
         </label>
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="button">Submit</button>
     </form>
 
     <table>
-        <thead>
+        <thead id="table-head">
             <tr>
-                <th scope="col">Title   </th>
+                <th scope="col">Title</th>
             </tr>
             <tr>
-                <th scope="col">Rating   </th>
+                <th scope="col">Rating</th>
             </tr>
             <tr>
-                <th scope="col">Delete   </th>
+                <th scope="col">Delete</th>
             </tr>
         </thead>
         <tbody id="table-body">
